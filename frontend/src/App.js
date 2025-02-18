@@ -4,9 +4,9 @@ import Sidebar from './layouts/sidebar';
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 
 import Home from './pages/home';
-import Dashboard from './pages/dashbord';
+import Dashboard from "./pages/dashboard";
+import Rooms from "./pages/rooms";
 import Bookings from './pages/bookings';
-import Rooms from './pages/rooms';
 import FoodMenu from './pages/foodmenu';
 import Stock from './pages/stock';
 import React from 'react';

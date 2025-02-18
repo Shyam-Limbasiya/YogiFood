@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { List, X } from "lucide-react"; // Import Lucide icons
-import ".../sidebar.css"; // Import custom CSS
+import '../style/sidebar.css'; // Correct the relative path
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false); // Sidebar state
 
