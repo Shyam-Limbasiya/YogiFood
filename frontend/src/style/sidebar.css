@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Hidden initially */
+    width: 250px;
+    height: 100vh;
+    background: #f8f9fa;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: left 0.3s ease-in-out; /* Smooth sliding effect */
+    z-index: 1040;
+  }
+  
+  .sidebar.open {
+    left: 0; /* Slides in */
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    padding: 10px;
+    color: #333;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    background: #ddd;
+    border-radius: 5px;
+  }
+  
